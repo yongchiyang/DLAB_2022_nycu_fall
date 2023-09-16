@@ -9,7 +9,7 @@ Digital Circuit LAB
 * LAB 3 : Simple ALU
 * LAB 4 : Push Button and LED Control
 * LAB 5 : Character LCD Control
-* LAB 6 : UART Communications
+* [LAB 6 : UART Communications](https://drive.google.com/drive/folders/1Hkb5RnFy8HfbFvXpLTHihGcgauE-EoWL?usp=sharing)
 * LAB 7 : Matrix Multiplication Circuit for Real
 * LAB 8 : SD Card Reader Circuit
 * LAB 9 : Password Cracking
