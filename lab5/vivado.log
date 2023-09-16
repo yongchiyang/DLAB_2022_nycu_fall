@@ -1,0 +1,616 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct 27 23:25:37 2022
+# Process ID: 55292
+# Current directory: C:/Users/User/Desktop/lab 5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46000 C:\Users\User\Desktop\lab 5\lab 5.xpr
+# Log file: C:/Users/User/Desktop/lab 5/vivado.log
+# Journal file: C:/Users/User/Desktop/lab 5\vivado.jou
+# Running On: LAPTOP-4P05EOQ4, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16969 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/User/Desktop/lab 5/lab 5.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1595.785 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:26:03 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:26:03 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:31:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:31:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+read_checkpoint
+Command: read_checkpoint
+ERROR: [Common 17-161] Invalid option value '' specified for '-file'.
+read_checkpoint -help
+read_checkpoint
+
+Description: 
+Read a design checkpoint
+
+Syntax: 
+read_checkpoint  [-cell <arg>] [-incremental] [-directive <arg>]
+                 [-auto_incremental] [-fix_objects <args>]
+                 [-dcp_cell_list <args>] [-quiet] [-verbose] [<file>]
+
+Usage: 
+  Name                 Description
+  --------------------------------
+  [-cell]              Replace this cell with the checkpoint. The cell must 
+                       be a black box.
+  [-incremental]       Input design checkpoint file to be used for re-using 
+                       implementation.
+  [-directive]         Mode of behavior (directive) for this command. Please 
+                       refer to Arguments section of this help for values for
+                       this option.
+                       Default: RuntimeOptimized
+  [-auto_incremental]  Enters automatic mode for incremental compile. This is
+                       less aggressive than the standard incremental mode and
+                       will readily switch from incremental algorithms to the
+                       default algorithms if results might not be maintained.
+                       Should not be used with -reuse_objects.
+  [-fix_objects]       Fix only given list of cells, clock regions, SLRs or 
+                       Design
+  [-dcp_cell_list]     A list of cell/dcp pairs, e.g. {<cell1> <dcp1> <cell2>
+                       <dcp2>}. The option value should be in curly braces.
+  [-quiet]             Ignore command errors
+  [-verbose]           Suspend message limits during command execution
+  [<file>]             Design checkpoint file
+
+Categories: 
+FileIO
+
+Description:
+
+  Reads a design checkpoint file (DCP) that contains the netlist,
+  constraints, and may optionally have the placement and routing information
+  of an implemented design. You can save design checkpoints at any stage in
+  the design using the write_checkpoint command.
+
+  The read_checkpoint command simply reads the associated checkpoint file,
+  without opening a design or project in-memory. To create a project from the
+  imported checkpoint, use the open_checkpoint command instead of
+  read_checkpoint, or use the link_design command after read_checkpoint to
+  open the in-memory design from the checkpoint or checkpoint files currently
+  read.
+
+  Note: When multiple design checkpoints are open in the Vivado tool, you
+  must use the current_project command to switch between the open designs.
+  You can use current_design to check which checkpoint is the active design.
+
+  Important: The -incremental switch is not intended to merge two DCP files
+  into a single design. It applies the placement and routing of the
+  incremental checkpoint to the netlist objects in the current design.
+
+  After loading an incremental design checkpoint, you can use the
+  report_incremental_reuse command to determine the percentage of physical
+  data reused from the incremental checkpoint, in the current design. The
+  place_design and route_design commands will run incremental place and
+  route, preserving reused placement and routing information and
+  incorporating it into the design solution.
+
+  Reading a design checkpoint with -incremental, loads the physical data into
+  the current in-memory design. To clear out the incremental design data, you
+  must either reload the current design, using open_run to open the synthesis
+  run for instance, or read a new incremental checkpoint to overwrite the one
+  previously loaded.
+
+Arguments:
+
+  -cell <arg> - (Optional) Specifies a black box cell in the current design
+  to populate with the netlist data from the checkpoint file being read. This
+  option cannot be used with -incremental, or any of its related options.
+
+  -auto_incremental - (Optional) Enables incremental algorithms only when the
+  quality of the reference checkpoint is high. This allows a user to set this
+  option and let the tool decide whether to run default or incremental
+  algorithms.
+
+  -incremental - (Optional) Load a checkpoint file into an already open
+  design to enable the incremental implementation design flow, where <file>
+  specifies the path and filename of the incremental design checkpoint (DCP)
+  file. In the incremental implementation flow, the placement and routing
+  from the incremental DCP is applied to matching netlist objects in the
+  current design to reuse existing placement and routing. Refer to the Vivado
+  Design Suite User Guide: Implementation (UG904) for more information on
+  incremental implementation.
+
+  -directive [ RuntimeOptimized | TimingClosure | Quick ] - (Optional)
+  Specifies a directive, or mode of operation for the -incremental process.
+
+   *  RuntimeOptimized: The target WNS is the referenced from the incremental
+      DCP. By default, more reuse from the reference checkpoint is
+      encouraged.
+
+   *  TimingClosure: The target WNS is 0. This mode attempts to meet timing
+      at the expense of runtime. Paths not meeting timing will be ripped up
+      and the incremental algorithms will be applied to fix timing on the
+      paths.
+
+   *  Quick: Specifies a low effort, non-timing-driven incremental
+      implementation mode with the fastest runtime.
+
+  -fix_objects - (Optional) When -incremental is specified, mark the
+  placement location of specifed cells as fixed (IS_LOC_FIXED) to prevent
+  changes by the place_design command. This option will fix the placement of
+  the specified list of cells, clock regions, SLRs or the current_design.
+
+  -dcp_cell_list <arg> - (Optional) Lets you specify a list of cell/dcp
+  pairs. This lets you read in multiple DCP files for specified cells in a
+  single run of the read_checkpoint command. The format is specified as a
+  list of cell/DCP pairs enclosed in curly braces: {<cell1> <dcp1> <cell2>
+  <dcp2>}.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <file> - (Required) The path and filename of the checkpoint file to read.
+
+  Note: If the path is not specified as part of the file name, the tool will
+  search for the specified file in the current working directory and then in
+  the directory from which the tool was launched.
+
+Examples:
+
+  The following example imports the specified checkpoint file into the tool,
+  and then links the various design elements to create an in-memory design of
+  the specified name:
+
+    read_checkpoint C:/Data/checkpoint.dcp
+    link_design -name Test1
+    
+
+  This example reads a design checkpoint on top of the current design for
+  incremental place and route of the design:
+
+    read_checkpoint -incremental C:/Data/routed.dcp
+    
+
+  This example reads a design checkpoint. Incremental algorithms will be used
+  only if the timing is nearly met and if there is a high reuse:
+
+    read_checkpoint -auto_incremental C:/Data/routed.dcp
+
+Related Information:
+
+   *  all_dsps
+   *  config_implementation
+   *  current_design
+   *  current_project
+   *  get_cells
+   *  link_design
+   *  open_checkpoint
+   *  report_config_implementation
+   *  write_checkpoint
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:35:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:35:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:38:23 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:38:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]
+INFO: [Vivado 12-7078] The incremental_compile property on the run reflects the DCP used to generate the current run results. If you do not want to use "C:/Users/User/Desktop/lab 5/lab 5.srcs/utils_1/imports/synth_1/lab5.dcp" for future runs, please clear the incremental_compile DCP run property.
+set_property incremental_checkpoint {} [get_runs synth_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:42:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:42:49 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 27 23:45:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Thu Oct 27 23:45:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 13 2022-03:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1595.785 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319B3011FA
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3226.336 ; gain = 1630.551
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:01:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:01:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:04:40 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:04:40 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:07:01 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:07:01 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:11:23 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:11:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:14:34 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:14:34 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:18:53 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:18:53 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:25:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:25:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:28:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:28:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:32:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:32:38 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:46:24 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:46:24 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:46:53 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:46:53 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:53:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:53:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 00:56:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 00:56:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 01:00:30 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 01:00:30 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 01:12:51 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 01:12:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 01:20:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 01:20:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 01:46:02 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 01:46:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 01:55:51 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 01:55:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 02:00:02 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 02:00:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 02:16:51 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 02:16:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 02:23:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 02:23:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 02:41:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 02:41:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Oct 28 02:46:20 2022] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/synth_1/runme.log
+[Fri Oct 28 02:46:20 2022] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/lab 5/lab 5.runs/impl_1/lab5.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 28 02:50:12 2022...
