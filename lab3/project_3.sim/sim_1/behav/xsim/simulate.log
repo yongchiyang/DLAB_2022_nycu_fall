@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+							            INPUTS                      REAL    OUTPUT  
+
+						 CODE     DATA IN    ACCUM IN      ALU OUT   ZERO BIT
+					      ------   --------   --------      --------  --------
+AND OPERATION       :      011     11010110   00110111  |   00010110      0

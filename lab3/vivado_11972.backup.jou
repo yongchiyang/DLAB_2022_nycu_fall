@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Oct 16 22:45:26 2022
+# Process ID: 11972
+# Current directory: C:/Users/User/DCLab/project_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15328 C:\Users\User\DCLab\project_3\project_3.xpr
+# Log file: C:/Users/User/DCLab/project_3/vivado.log
+# Journal file: C:/Users/User/DCLab/project_3\vivado.jou
+# Running On: LAPTOP-4P05EOQ4, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16969 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/DCLab/project_3/project_3.xpr
+update_compile_order -fileset sources_1
