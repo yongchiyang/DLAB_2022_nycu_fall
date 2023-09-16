@@ -1,0 +1,183 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Dec  4 07:47:12 2022
+| Host         : DESKTOP-IF1OP49 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab5_control_sets_placed.rpt
+| Design       : lab5
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   105 |
+|    Minimum number of control sets                        |   105 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   312 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   105 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |    68 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    27 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             500 |          176 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             118 |           74 |
+| Yes          | No                    | No                     |            1464 |          716 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             606 |          340 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+-------------------------------+----------------------------+------------------+----------------+--------------+
+|              Clock Signal             |         Enable Signal         |      Set/Reset Signal      | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------------------+-------------------------------+----------------------------+------------------+----------------+--------------+
+|  FSM_sequential_N_next_reg[2]_i_2_n_0 |                               |                            |                2 |              3 |         1.50 |
+|  clk_IBUF_BUFG                        | lcd0/tcode[3]_i_1_n_0         |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[51]_i_1__5_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[51]_i_1__3_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[43]_i_1__3_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[19]_i_1__3_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[19]_i_1__1_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[3]_i_1__1_n_0      |                            |                4 |              4 |         1.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[43]_i_1__1_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[35]_i_1__1_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[27]_i_1__1_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[11]_i_1__1_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[51]_i_1__1_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a2/ascii_o[59]_i_1__1_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[27]_i_1__5_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[35]_i_1_n_0        |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[43]_i_1_n_0        |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[51]_i_1_n_0        |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[3]_i_1_n_0         |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[11]_i_1_n_0        |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[19]_i_1_n_0        |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[27]_i_1_n_0        |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a0/ascii_o[59]_i_1_n_0        |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | lcd0/icode                    |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[35]_i_1__3_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[35]_i_1__2_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[59]_i_1__2_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[19]_i_1__0_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[35]_i_1__0_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[3]_i_1__0_n_0      |                            |                4 |              4 |         1.00 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[43]_i_1__0_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[27]_i_1__0_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[11]_i_1__0_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[43]_i_1__2_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[51]_i_1__0_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a1/ascii_o[59]_i_1__0_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[51]_i_1__2_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[3]_i_1__2_n_0      |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[27]_i_1__4_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[59]_i_1__4_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[11]_i_1__4_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[19]_i_1__4_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[35]_i_1__4_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[43]_i_1__4_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[3]_i_1__4_n_0      |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a5/ascii_o[51]_i_1__4_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[27]_i_1__2_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[11]_i_1__2_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a3/ascii_o[19]_i_1__2_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[59]_i_1__3_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[27]_i_1__3_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[11]_i_1__3_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a4/ascii_o[3]_i_1__3_n_0      |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[43]_i_1__6_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[59]_i_1__6_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[11]_i_1__6_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[51]_i_1__6_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[3]_i_1__6_n_0      |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[19]_i_1__6_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[27]_i_1__6_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a7/ascii_o[35]_i_1__6_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[43]_i_1__5_n_0     |                            |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[59]_i_1__5_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[19]_i_1__5_n_0     |                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[3]_i_1__5_n_0      |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[35]_i_1__5_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        | a6/ascii_o[11]_i_1__5_n_0     |                            |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                        |                               | lcd0/reset_n               |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG                        | bt/i[4]_i_1__7_n_0            | bt/bcd[27]_i_1_n_0         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG                        | lcd0/lcd_initialized_reg_n_0  | lcd0/reset_n               |                4 |              7 |         1.75 |
+|  clk_IBUF_BUFG                        | m0/i[6]_i_2_n_0               | a0/i_reg[1]_0              |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                        | m4/i[6]_i_2__3_n_0            | a4/i_reg[1]_0              |                7 |              8 |         1.14 |
+|  clk_IBUF_BUFG                        | m5/i[6]_i_2__4_n_0            | a5/i_reg[1]_0              |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                        | m7/i[6]_i_2__6_n_0            | a7/i_reg[1]_0              |                8 |              8 |         1.00 |
+|  clk_IBUF_BUFG                        | m1/i[6]_i_2__0_n_0            | a1/i_reg[1]_0              |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                        | m2/i[6]_i_2__1_n_0            | a2/i_reg[1]_0              |                6 |              8 |         1.33 |
+|  clk_IBUF_BUFG                        | m3/i[6]_i_2__2_n_0            | a3/i_reg[1]_0              |                6 |              8 |         1.33 |
+|  clk_IBUF_BUFG                        | m6/i[6]_i_2__5_n_0            | a6/i_reg[1]_0              |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                        | a5/ascii_o_reg[61]_i_1__4_n_2 |                            |               15 |             16 |         1.07 |
+|  clk_IBUF_BUFG                        | a2/ascii_o_reg[61]_i_1__1_n_2 |                            |               11 |             16 |         1.45 |
+|  clk_IBUF_BUFG                        | a3/ascii_o_reg[61]_i_1__2_n_2 |                            |               12 |             16 |         1.33 |
+|  clk_IBUF_BUFG                        | a7/ascii_o_reg[61]_i_1__6_n_2 |                            |               13 |             16 |         1.23 |
+|  clk_IBUF_BUFG                        | a4/ascii_o_reg[61]_i_1__3_n_2 |                            |               11 |             16 |         1.45 |
+|  clk_IBUF_BUFG                        | a1/ascii_o_reg[61]_i_1__0_n_2 |                            |               13 |             16 |         1.23 |
+|  clk_IBUF_BUFG                        | a6/ascii_o_reg[61]_i_1__5_n_2 |                            |               14 |             16 |         1.14 |
+|  clk_IBUF_BUFG                        | a0/ascii_o_reg[61]_i_1_n_2    |                            |               15 |             16 |         1.07 |
+|  clk_IBUF_BUFG                        | lcd0/lcd_initialized_reg_n_0  | lcd0/text_count[0]_i_1_n_0 |                7 |             25 |         3.57 |
+|  clk_IBUF_BUFG                        | b_timer[0]_i_1_n_0            | i[0]_i_1__8_n_0            |                7 |             28 |         4.00 |
+|  clk_IBUF_BUFG                        |                               | bt/bcd[27]_i_1_n_0         |               16 |             28 |         1.75 |
+|  clk_IBUF_BUFG                        | bt/bcd1[53]_i_2_n_0           | bt/bcd1[53]_i_1_n_0        |               16 |             29 |         1.81 |
+|  clk_IBUF_BUFG                        | lcd0/init_e_i_2_n_0           | lcd0/reset_n               |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                        | i                             | i[0]_i_1__8_n_0            |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                        |                               | row_A[106]                 |               14 |             35 |         2.50 |
+|  clk_IBUF_BUFG                        | m6/E[0]                       |                            |               32 |             48 |         1.50 |
+|  clk_IBUF_BUFG                        |                               | row_A[78]                  |               41 |             50 |         1.22 |
+|  clk_IBUF_BUFG                        | m4/a[31]_i_1__3_n_0           |                            |               60 |            128 |         2.13 |
+|  clk_IBUF_BUFG                        | m5/a[31]_i_1__4_n_0           |                            |               56 |            128 |         2.29 |
+|  clk_IBUF_BUFG                        | m6/a[31]_i_1__5_n_0           |                            |               56 |            128 |         2.29 |
+|  clk_IBUF_BUFG                        | m7/a[31]_i_1__6_n_0           |                            |               47 |            128 |         2.72 |
+|  clk_IBUF_BUFG                        | m1/a[31]_i_1__0_n_0           |                            |               58 |            128 |         2.21 |
+|  clk_IBUF_BUFG                        | m2/a[31]_i_1__1_n_0           |                            |               56 |            128 |         2.29 |
+|  clk_IBUF_BUFG                        | m3/a[31]_i_1__2_n_0           |                            |               49 |            128 |         2.61 |
+|  clk_IBUF_BUFG                        | m0/a[31]_i_1_n_0              |                            |               59 |            128 |         2.17 |
+|  clk_IBUF_BUFG                        | p_2_out                       | lcd0/reset_n               |              243 |            384 |         1.58 |
+|  clk_IBUF_BUFG                        |                               |                            |              174 |            497 |         2.86 |
++---------------------------------------+-------------------------------+----------------------------+------------------+----------------+--------------+
+
+

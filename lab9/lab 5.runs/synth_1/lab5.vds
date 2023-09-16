@@ -1,0 +1,309 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec  4 07:42:53 2022
+# Process ID: 2532
+# Current directory: C:/Users/Shlab_01/Downloads/lab 5/lab 5.runs/synth_1
+# Command line: vivado.exe -log lab5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab5.tcl
+# Log file: C:/Users/Shlab_01/Downloads/lab 5/lab 5.runs/synth_1/lab5.vds
+# Journal file: C:/Users/Shlab_01/Downloads/lab 5/lab 5.runs/synth_1\vivado.jou
+# Running On: DESKTOP-IF1OP49, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 6, Host memory: 17053 MB
+#-----------------------------------------------------------
+source lab5.tcl -notrace
+Command: synth_design -top lab5 -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12028
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1286.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab5' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:4]
+INFO: [Synth 8-6157] synthesizing module 'LCD_module' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/LCD_module.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'LCD_module' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/LCD_module.v:13]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:482]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:482]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:97]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:129]
+INFO: [Synth 8-6157] synthesizing module 'ascii_incr' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:423]
+WARNING: [Synth 8-6090] variable 'ascii_o' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_incr' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:423]
+INFO: [Synth 8-6157] synthesizing module 'md5' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:258]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:288]
+INFO: [Synth 8-6155] done synthesizing module 'md5' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:258]
+INFO: [Synth 8-6157] synthesizing module 'bin2ascii_2' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:372]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:398]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:399]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:400]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:401]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:402]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:403]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:404]
+WARNING: [Synth 8-6090] variable 'bcd' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:405]
+INFO: [Synth 8-6155] done synthesizing module 'bin2ascii_2' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'lab5' (0#1) [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:4]
+WARNING: [Synth 8-6014] Unused sequential element f_reg was removed.  [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:291]
+WARNING: [Synth 8-6014] Unused sequential element w_reg was removed.  [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:291]
+WARNING: [Synth 8-6014] Unused sequential element tmp_reg was removed.  [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:291]
+WARNING: [Synth 8-3917] design lab5 has port usr_led[3] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[2] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[1] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port clk in module debounce is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[2] in module lab5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[1] in module lab5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[0] in module lab5 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1286.062 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.362 . Memory (MB): peak = 1286.062 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.xdc]
+Finished Parsing XDC File [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab5_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab5_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1340.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1340.035 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'N_reg' in module 'lab5'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_N_next_reg' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:99]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_N_next_reg' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:99]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              MAIN_START |                              000 |                              000
+               MAIN_IDLE |                              001 |                              001
+                MAIN_MD5 |                              010 |                              010
+                MAIN_CHK |                              011 |                              011
+               MAIN_NEXT |                              100 |                              100
+                MAIN_END |                              101 |                              101
+               MAIN_INCR |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'N_reg' using encoding 'sequential' in module 'lab5'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_N_next_reg' [C:/Users/Shlab_01/Downloads/lab 5/lab 5.src/lab5.v:99]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 520   
+	   3 Input   32 Bit       Adders := 56    
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 72    
++---XORs : 
+	   3 Input     32 Bit         XORs := 8     
+	   2 Input     32 Bit         XORs := 8     
++---Registers : 
+	              128 Bit    Registers := 2     
+	               64 Bit    Registers := 26    
+	               32 Bit    Registers := 41    
+	               28 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 4     
+	   2 Input   64 Bit        Muxes := 51    
+	   3 Input   32 Bit        Muxes := 8     
+	  70 Input   32 Bit        Muxes := 8     
+	   2 Input   32 Bit        Muxes := 3     
+	  13 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 57    
+	   3 Input    4 Bit        Muxes := 16    
+	   2 Input    3 Bit        Muxes := 11    
+	   7 Input    3 Bit        Muxes := 2     
+	  68 Input    2 Bit        Muxes := 8     
+	  68 Input    1 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 22    
+	  70 Input    1 Bit        Muxes := 8     
+	  13 Input    1 Bit        Muxes := 2     
+	  69 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design lab5 has port usr_led[3] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[2] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[1] driven by constant 0
+WARNING: [Synth 8-3917] design lab5 has port usr_led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port usr_btn[2] in module lab5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[1] in module lab5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_btn[0] in module lab5 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:43 . Memory (MB): peak = 1340.035 ; gain = 53.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 1363.855 ; gain = 77.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:00:59 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:05 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:05 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:09 ; elapsed = 00:01:08 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:09 ; elapsed = 00:01:08 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |  4756|
+|3     |LUT1   |  7922|
+|4     |LUT2   |  1745|
+|5     |LUT3   |  1045|
+|6     |LUT4   |  2797|
+|7     |LUT5   |   682|
+|8     |LUT6   |  6269|
+|9     |MUXF7  |  1959|
+|10    |MUXF8  |   726|
+|11    |FDRE   |  2486|
+|12    |FDSE   |   226|
+|13    |LD     |     3|
+|14    |IBUF   |     3|
+|15    |OBUF   |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1378.680 ; gain = 92.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:01:03 . Memory (MB): peak = 1378.680 ; gain = 38.645
+Synthesis Optimization Complete : Time (s): cpu = 00:01:10 ; elapsed = 00:01:09 . Memory (MB): peak = 1378.680 ; gain = 92.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.359 . Memory (MB): peak = 1381.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7444 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1392.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LD => LDCE: 3 instances
+
+Synth Design complete, checksum: ffbc393a
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:19 . Memory (MB): peak = 1392.242 ; gain = 106.180
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Shlab_01/Downloads/lab 5/lab 5.runs/synth_1/lab5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab5_utilization_synth.rpt -pb lab5_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  4 07:44:19 2022...
